@@ -72,6 +72,35 @@ header .presentation::before {
     color: #fff;
 }
 
+main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main.item {
+    width: 30%;
+    margin-bottom: 50px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+main.item img {
+    width: 100%;
+    border-radius: 10px 10px;
+    transition: transform 500ms ease;
+}
+
+main.item img:hover {
+    transform: scale(1.05);
+}
+
+main h2, main p, main d {
+    margin: 10px 20px;
+    color: #333;
+}
+
 footer {
     text-align: center;
     margin-top: 100px;
