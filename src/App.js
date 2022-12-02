@@ -15,7 +15,7 @@ class App extends React.Component {
           img: '1.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
           category: 'Sport',
-          price: '200$'
+          price: '199$'
         },
         {
           id: 2,
@@ -23,7 +23,7 @@ class App extends React.Component {
           img: '2.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
           category: 'Sport',
-          price: '200$'
+          price: '199$'
         },
         {
           id: 3,
@@ -31,7 +31,7 @@ class App extends React.Component {
           img: '3.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
           category: 'Sport',
-          price: '200$'
+          price: '199$'
         },
         {
           id: 4,
@@ -39,7 +39,55 @@ class App extends React.Component {
           img: '4.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
           category: 'Sport',
-          price: '200$'
+          price: '199$'
+        },
+        {
+          id: 5,
+          title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
+          img: '5.jpg',
+          desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
+          category: 'Sport',
+          price: '199$'
+        },
+        {
+          id: 6,
+          title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
+          img: '6.jpg',
+          desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
+          category: 'Sport',
+          price: '199$'
+        },
+        {
+          id: 7,
+          title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
+          img: '7.jpg',
+          desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
+          category: 'Sport',
+          price: '199$'
+        },
+        {
+          id: 8,
+          title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
+          img: '8.jpg',
+          desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
+          category: 'Sport',
+          price: '199$'
+        },
+        {
+          id: 9,
+          title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
+          img: '9.jpg',
+          desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
+          category: 'Sport',
+          price: '199$'
+        },
+        {
+          id: 10,
+          title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
+          img: '10.jpg',
+          desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
+          category: 'Sport',
+          price: '199$'
         }
       ]
     }
