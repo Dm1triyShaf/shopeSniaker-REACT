@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Items from "./components/Items";
+import Categories from "./components/Categories";
 
 
 class App extends React.Component {
@@ -31,7 +32,7 @@ class App extends React.Component {
           title:'Кроссовки Nike M2k Tekno Grey White',
           img: '3.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
-          category: 'Sport',
+          category: 'cross-country',
           price: '199$'
         },
         {
@@ -39,7 +40,7 @@ class App extends React.Component {
           title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
           img: '4.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
-          category: 'Sport',
+          category: 'Fitnes',
           price: '199$'
         },
         {
@@ -55,7 +56,7 @@ class App extends React.Component {
           title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
           img: '6.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
-          category: 'Sport',
+          category: 'Fitnes',
           price: '199$'
         },
         {
@@ -63,7 +64,7 @@ class App extends React.Component {
           title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
           img: '7.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
-          category: 'Sport',
+          category: 'Fitnes',
           price: '199$'
         },
         {
@@ -71,7 +72,7 @@ class App extends React.Component {
           title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
           img: '8.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
-          category: 'Sport',
+          category: 'cross-country',
           price: '199$'
         },
         {
@@ -79,7 +80,7 @@ class App extends React.Component {
           title:'Кроссовки Nike Air Force LV 8 Under Construction Black Grey',
           img: '9.jpg',
           desc: ' Подходят как для занятий спортом, бега, так и для повседневной носки.',
-          category: 'Sport',
+          category: 'cross-country',
           price: '199$'
         },
         {
@@ -99,6 +100,7 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <Header orders={this.state.orders} onDelete={this.deleteOrder}/>
+        <Categories />
         <Items items={this.state.items} onAdd={this.addToOrder} />
         <Footer/>
       </div>
