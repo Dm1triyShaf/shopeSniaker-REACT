@@ -4,7 +4,7 @@ export class Item extends Component {
   render() {
     return (
         <div className='item'>
-            <img src={'./sneakers/' + this.props.item.img} alt='img1'/>
+            <img src={'./sneakers/' + this.props.item.img} alt='img1' onClick={() => this.props.onShowItem(this.props.item)}/>
             <h2>{this.props.item.title}</h2>
             <p>{this.props.item.desc}</p>
             <b>{this.props.item.price}</b>
