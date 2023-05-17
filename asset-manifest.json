@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shopeSniaker-REACT/static/css/main.0acc801b.css",
+    "main.js": "/shopeSniaker-REACT/static/js/main.803e9391.js",
+    "static/media/pexels-maksim-goncharenok-4663421 (1).jpg": "/shopeSniaker-REACT/static/media/pexels-maksim-goncharenok-4663421 (1).aba5c21bd4e519b10321.jpg",
+    "index.html": "/shopeSniaker-REACT/index.html",
+    "main.0acc801b.css.map": "/shopeSniaker-REACT/static/css/main.0acc801b.css.map",
+    "main.803e9391.js.map": "/shopeSniaker-REACT/static/js/main.803e9391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0acc801b.css",
+    "static/js/main.803e9391.js"
+  ]
+}
